@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_post"
+    app:startDestination="@id/postFragment">
+
+    <fragment
+        android:id="@+id/postFragment"
+        android:name="com.trickring.app_mvvm_usecase.ui.post.PostFragment"
+        tools:layout="@layout/fragment_post">
+        <action
+            android:id="@+id/action_to_post_detail"
+            app:destination="@id/postDetailFragment"
+            app:enterAnim="@anim/navigation_fade_enter"
+            app:exitAnim="@anim/navigation_fade_exit"
+            app:popEnterAnim="@anim/navigation_fade_pop_enter"
+            app:popExitAnim="@anim/navigation_fade_pop_exit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/postDetailFragment"
+        android:name="com.trickring.app_mvvm_usecase.ui.detail.PostDetailFragment"
+        tools:layout="@layout/fragment_post">
+        <argument
+            android:name="post"
+            app:argType="com.trickring.app_mvvm_usecase.domain.model.Post"
+            app:nullable="false" />
+    </fragment>
+
+</navigation>

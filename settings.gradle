@@ -1,0 +1,2 @@
+include ':app-mvvm-usecase', ':app-flux'
+rootProject.name='Awesome-Android'

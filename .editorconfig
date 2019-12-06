@@ -1,0 +1,11 @@
+[*]
+### Enable ###
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+### Disable ###
+max_line_length = off
+disabled_rules = no-wildcard-imports, filename
+
+### Other ###
+charset = utf-8
