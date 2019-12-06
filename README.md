@@ -7,12 +7,12 @@
 - Using Coroutine / Ktor / Kotlin.serializor etc...
 - Architecture is MVVM + UseCase
 
-<img src="https://github.com/trickring/Awesome-Android/blob/master/resource/architecture-image-mvvm-usecase.png" width=300>
+<img src="https://github.com/trickring/Awesome-Android/blob/master/resource/architecture-image-mvvm-usecase.png" width=500>
 
 ## Flux
 
 - Using Coroutine / Retrofit / Kotlin.serializor etc...
 - Architecture is Flux
 
-<img src="https://github.com/trickring/Awesome-Android/blob/master/resource/architecture-image-flux.png" width=300>
+<img src="https://github.com/trickring/Awesome-Android/blob/master/resource/architecture-image-flux.png" width=700>
 
